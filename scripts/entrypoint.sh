@@ -16,4 +16,5 @@ export GEOSERVER_OPTS="-Djava.awt.headless=true -server -Xms${INITIAL_MEMORY} -X
 export JAVA_OPTS="${JAVA_OPTS} ${GEOSERVER_OPTS}"
 
 /scripts/update_passwords.sh
+/scripts/update_datastores.sh
 exec /usr/local/tomcat/bin/catalina.sh run

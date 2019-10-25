@@ -66,4 +66,6 @@ ENV \
     ## Maximum Memory that Java can allocate
     MAXIMUM_MEMORY="4G"
 
+EXPOSE 8080
+
 CMD ["/scripts/entrypoint.sh"]
